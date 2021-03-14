@@ -38,14 +38,31 @@ public class Person {
 	// displays a statement based on the number generated
 
 	public void curseAndSwear() {
-		int random;
+		int saying;
 		// define the range
 		int max = 5;
 		int min = 1;
 		int range = max - min + 1;
 		// generate the random number
-		random = (int) (Math.random() * range) + 1;
-		System.out.println(random);
+		saying = (int) (Math.random() * range) + 1;
+		switch (saying) {
+		case 1:
+			System.out.println("Oh damn!! What a nuisance");
+			break;
+		case 2:
+			System.out.println("Lord! give me strnegth!");
+			break;
+		case 3:
+			System.out.println("Oh no!");
+			break;
+		case 4:
+			System.out.println("banana farts!");
+			break;
+		case 5:
+			System.out.println("Curses!");
+			break;
+
+		}
 
 	}
 
