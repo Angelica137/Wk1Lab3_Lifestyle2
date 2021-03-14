@@ -32,6 +32,21 @@ public class Person {
 		System.out.print("Abusing Body = " + checkAbuser());
 
 	}
+
 	// Put curseAndSwear method here
+	// generates random no 1 to 5
+	// displays a statement based on the number generated
+
+	public void curseAndSwear() {
+		int random;
+		// define the range
+		int max = 5;
+		int min = 1;
+		int range = max - min + 1;
+		// generate the random number
+		random = (int) (Math.random() * range) + 1;
+		System.out.println(random);
+
+	}
 
 }
