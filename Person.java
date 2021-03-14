@@ -50,7 +50,7 @@ public class Person {
 			System.out.println("Oh damn!! What a nuisance");
 			break;
 		case 2:
-			System.out.println("Lord! give me strnegth!");
+			System.out.println("Lord! give me strength!");
 			break;
 		case 3:
 			System.out.println("Oh no!");
